@@ -1,0 +1,19 @@
+03 - Sorteador de números
+
+* Função sortear:{ recupera os seguintes valores que o usuário irá inserir na tela: quantidade (quantidade de números a serem sorteados), de (número inicial) e ate (número final). 
+
+Cria alertas para caso o usuário insira um número inicial maior que o final, e par caso o intervalo de números definido for menor que a quantidade de números requisitados. 
+
+Cria um loop que gera a quantidade de números requisitada pelo usuário.
+
+Exibe o resultado em um campo na tela
+
+Contém duas chamadas para a função alterarStatusBotao para que o botão que estiver habilitado fique desabilitado e vice-versa.
+}
+
+* Função gerarNumeroAleatorio: { recebe o numero mínimo e o numero máximo, e retorna um numero aleatório dentro desse intervalo.
+
+* Função alteraStatusBotao: { recebe o id do botão, e caso o botão contenha a classe de botão desabilitado, ele irá remover essa classe e incluir a classe de botão habilitado. Caso o botão contenha a classe de botão habilitado, ele irá remover essa classe e incluir a classe de botão desabilitado.
+}
+
+* Função reiniciar: { Limpa todos os campos na tela e altera os status dos botões para seu status inicial.
