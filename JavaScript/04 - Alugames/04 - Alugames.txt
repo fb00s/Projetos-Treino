@@ -1,0 +1,3 @@
+04 - Alugames
+
+* Função alterarStatus: recebe o evento que acionou a ação e o id do botão clicado. O programa deve impedir o comportamento padrão do evento, impedindo que a página atualize quando um jogo for clicado. Caso o jogo clicado esteja como "alugado", o programa deve remover a classe de imagem alugada da imagem, e remover a classe de botão alugado do botão, e deve alterar o texto do botão de "Devolver" para "Alugar". Caso o jogo não esteja alugado, o programa deve adicionar a classe de imagem alugada e de botão alugado, e deve alterar o texto do botão para "Devolver".
