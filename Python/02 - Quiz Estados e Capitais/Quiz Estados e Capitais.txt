@@ -1,0 +1,13 @@
+Quiz Estados e Capitais
+
+* Lista estados_e_capitais: Contém Dicionários, que contém os estados e as suas capitais como chaves.
+
+* Função adicionar_questoes: Inclui os itens como dicionários na lista nao_respondidos, primeiro como o estado sendo a questão e a capital sendo a resposta, depois o inverso.
+
+* Função exibir_titulo: Exibe o título do jogo.
+
+* Função verificar resposta: Exibe uma questão da lista dos não respondidos, e coleta a resposta do usuário. Caso a resposta esteja certa, o programa informa o usuário que ele acertou, e o item é excluído dos não respondidos. Caso esteja incorreta, o programa informa o usuário. O programa irá realizar isso em loop até que o usuário tenha respondido todos os itens corretamente. No fim, a função chama a função fim_de_jogo.
+
+* fim_de_jogo: Informa que o usuário terminou o quiz, e coleta a resposta dele se ele quer jogar novamente ou não. Caso sim, o jogo é resetado.
+
+* main: Chama as funções adicionar_questoes, exibir_titulo e verificar resposta.
