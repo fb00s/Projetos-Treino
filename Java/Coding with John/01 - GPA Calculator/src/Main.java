@@ -53,7 +53,7 @@ public class Main {
                 System.out.println("Insira a nota: ");
                 nota = scannerInput.nextLine().toUpperCase();
                 notaValida = true;
-                if (nota.equalsIgnoreCase("A")) {
+                if (nota.equals("A")) {
                     valorMedia = 4;
                 } else if (nota.equals("B")) {
                     valorMedia = 3;
